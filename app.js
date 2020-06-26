@@ -11,8 +11,6 @@ let media = {
 }
 
 
-
-
 navigator.mediaDevices.getUserMedia(media).then(function(mediaStreamObj) {
     let video = document.querySelector('video');
     video.srcObject = mediaStreamObj
